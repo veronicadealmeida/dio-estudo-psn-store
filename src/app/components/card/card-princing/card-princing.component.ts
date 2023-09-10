@@ -7,6 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class CardPrincingComponent {
   @Input()
+  gameText: string = '';
+
+  @Input()
   gameType: string = '';
 
   @Input()

@@ -13,6 +13,9 @@ export class CardComponent {
   gameLabel: string = '';
 
   @Input()
+  gameText: string = '';
+
+  @Input()
   gameType: string = '';
 
   @Input()
